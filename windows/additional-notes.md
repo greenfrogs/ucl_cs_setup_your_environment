@@ -1,6 +1,5 @@
 # Additional Notes
-> A collection of useful information about Windows
-
+A collection of useful information and tips about the Windows ecosystem.
 
 ## Environmental Variables
 To run an application in PowerShell you either need to know the full location of that executable 
@@ -18,3 +17,9 @@ path click New (top right) and write the full folder name. There is also a path 
 (the bottom box) which applies to all users however you should mainly use the path under user variables.
 
 ![Environmental Path](../images/windows-additional-notes-path.png)
+
+## Unix Emulation
+Windows Subsytem for Linux (or WSL) lets you run Linux software and a full Linux command line from within Windows 
+without having to reboot or run a Virtual Machine. You can also access all your Windows files from WSL without 
+having to do any magic or hackery. If you need this functionality a good guide can be found here:
+https://docs.microsoft.com/en-us/windows/wsl/install-win10.
