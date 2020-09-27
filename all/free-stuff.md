@@ -4,10 +4,10 @@
 Before going ahead and setting things up for your platform, get some free stuff online!
 
 1.	**GitHub Student Pack**.
-Head to [https://education.github.com/pack](https://education.github.com/pack) to get a GitHub Student Pack. This will 
-get you a GitHub account (for sharing code) and allow you to have as many private repositories (now free for all) and 
-wikis as you need while you’re a student (now free for all). There’s also a bunch of other free stuff in there. 
-Cool, huh?
+Head to [https://education.github.com/pack](https://education.github.com/pack) to get a GitHub Student Developer
+Pack. This will get you a free GitHub Pro account (for sharing code) with unlimited private/public repos
+and give you access to a bunch of other free stuff like domain names, software, cloud hosting credits, and more
+while you’re a student. Cool, huh?
 
 2.	**JetBrains Student Pack**.
 Head to [https://www.jetbrains.com/student/](https://www.jetbrains.com/student/) to get all the JetBrains products for 
