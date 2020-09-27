@@ -1,7 +1,7 @@
 # The C Programming Language
 > C has the power of assembly language and the convenience of … assembly language. -- *Dennis Ritchie*
 
-Mac already has gcc and debugging tools installed for C so we just need to setup the IDE.
+Mac already has gcc (the compiler we need for C) and debugging tools installed for C so we just need to setup the IDE.
 
 1. Open the Jetbrains Toolbox and install [CLion](https://www.jetbrains.com/clion/)
 
