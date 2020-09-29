@@ -48,5 +48,14 @@ far the most advanced IntelliSense (auto code completion) capabilities, although
 2. Download the [Toolbox App](https://www.jetbrains.com/toolbox-app/) and sign in with your account. This will
 automatically license any Jetbrains tools on your system.
 
+## Step 3: Git
+Download and install git from: https://git-scm.com/download/win. You then need to configure git with the commands below.
+To find your 
+[github email address](https://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address) 
+you can go here: https://github.com/settings/emails. You can also connect to github via 
+[ssh](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh).
 
-
+```powershell
+git config --global user.name "Username"
+git config --global user.email "Email-Use-Github-Anonymous"
+```
