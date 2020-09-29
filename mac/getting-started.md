@@ -39,8 +39,8 @@ far the most advanced IntelliSense (auto code completion) capabilities, although
 2. Download the [Toolbox App](https://www.jetbrains.com/toolbox-app/) and sign in with your account. This will
 automatically license any Jetbrains tools on your system.
 
-### Note on IDE's
-IDE's are a personal preference, this guide will primarily use Jetbrains where possible but you may wish to use
+### Note on IDEs
+IDEs are a personal preference, this guide will primarily use Jetbrains where possible but you may wish to use
 Visual Studio Code for everything instead.
 
 ## Step 3: Git
