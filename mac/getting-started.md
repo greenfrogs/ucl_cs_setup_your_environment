@@ -35,6 +35,26 @@ far the most advanced IntelliSense (auto code completion) capabilities, although
 2. Download the [Toolbox App](https://www.jetbrains.com/toolbox-app/) and sign in with your account. This will
 automatically license any Jetbrains tools on your system.
 
-## Note on IDE's
-IDE's are a personal preference, this guide will primerily use Jetbrains where possible but you may with to use
+### Note on IDE's
+IDE's are a personal preference, this guide will primarily use Jetbrains where possible but you may with to use
 Visual Studio Code for everything instead.
+
+## Step 3: Git
+Git should already be installed, and you can verify that with:
+```bash
+git --version git
+```
+If not installed you can install with Homebrew:
+```bash
+brew install git
+```
+
+You can then configure your username and email:
+```bash
+git config --global user.name "Username"
+git config --global user.email "Email-Use-Github-Anonymous"
+```
+To find your 
+[github email address](https://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address) 
+you can go here: https://github.com/settings/emails. You can also connect to github via 
+[ssh](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh).
