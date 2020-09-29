@@ -25,7 +25,7 @@ machine is 32-bit).
 that old look.
 
 4. Open Windows Terminal and click the dropdown and select the updated PowerShell. If the updated PowerShell is not
-the defauly shell you can click on Settings and change the `defaultProfile` to be the GUID with the source of:
+the default shell you can click on Settings and change the `defaultProfile` to be the GUID with the source of:
 `Windows.Terminal.PowershellCore`.
 
 ![PowerShell Core Option 3](../images/windows-getting-started-powershell-core.png)
@@ -40,7 +40,7 @@ windows powershell.
 
 ## Step 2: Jetbrains Toolbox
 The tools you use can transform development from being a chore to a joy. Having a consistent environment across all
-languages is key. Throught this guide we will be using the free (for students) Jetbrains tools, they have by
+languages is key. Throughout this guide we will be using the free (for students) Jetbrains tools, they have by
 far the most advanced IntelliSense (auto code completion) capabilities, although sadly there is no tool for Haskell.
 
 1. If you have not already, sign-up for the [Jetbrains Student Pack](https://www.jetbrains.com/student/).
