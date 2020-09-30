@@ -6,7 +6,7 @@ C on Windows is not the best experience but virtualising Unix is not the solutio
 1. Open the Jetbrains Toolbox and install [CLion](https://www.jetbrains.com/clion/)
 2. Install [Cygwin](https://cygwin.com/install.html), you can either install it `for everyone` (inside a folder like
 program files) or `just for you` in a folder in your user area. When installing cygwin you will need to select 
-`gcc-g++`, `cmake`, and `make` from the packages list.
+`gcc-g++`, `cmake`, `make`, and `gdb` from the packages list.
 3. Open CLion, click configure and then open `Toolchains` under `Build, Execution, Deployment`. Click the small plus
 button and select Cygwin, if your environment is not found automatically select the dropdown and find the root of
 your cygwin install. Ensure that CMake, Make, C Compiler, and Debugger are all found (either detected or a
