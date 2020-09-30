@@ -13,7 +13,7 @@ click windows terminal and select `run as administrator`).
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
 
-2. Wait for the installation to complete and then run `> choco` to check it all works
+2. Wait for the installation to complete and then run `choco` to check it all works
 
 3. In your administrator PowerShell then run the following two commands:
 
