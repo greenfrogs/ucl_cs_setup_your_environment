@@ -1,5 +1,5 @@
 # UCL-CS Setup Your Environment
-> UCL Computer Science 2020/21
+> UCL Computer Science 2021/22
 
 Welcome to Set Up Your Environment, a UCL Computer Science initiative to help you get your laptop ready with everything 
 you need to do your first-year work. This documentation is divided up by Windows 10, macOS and Linux, so head on to your 
