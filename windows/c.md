@@ -51,3 +51,5 @@ application with CLion (hammer icon) and then run your executable in PowerShell 
 ```
 
 3. If you ever need to access `gcc` directly then you can open the installed `Cygwin Terminal`.
+
+4. If compiling with cygwin via the terminal results in an access denied message you can try disabling your real-time anti-virus scanning.
