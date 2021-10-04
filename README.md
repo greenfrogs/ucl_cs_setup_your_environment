@@ -13,7 +13,7 @@ of it you should be able to program and run code written in:
 * Java
 * Python
 
-We recommend you start with the [free stuff](/all/free-stuff) section before going onto your platform.
+We recommend you start with the [free stuff](/all/free-stuff.md) section before going onto your platform.
 
 Any questions? Contact the senior programming tutors or your personal programming tutor, or raise an
 [issue on Github](https://github.com/greenfrogs/ucl_cs_setup_your_environment/issues)!
