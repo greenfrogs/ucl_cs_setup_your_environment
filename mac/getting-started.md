@@ -12,7 +12,7 @@ Load up a Terminal window (from /Applications/Utilities) and paste the following
 Enter your password when it asks you to:
 
 ```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 **Tip:** when you're typing in your password, you won't actually see it being typed (not even the asterisks!).
@@ -23,7 +23,7 @@ Once installed, you may see some extra updates for the macOS Developer Tools in 
 install those. Now back in terminal, run these commands:
 
 ```bash
-brew install python3 ghc cabal-install stack
+brew install python python-tk ghc cabal-install haskell-stack haskell-language-server
 ```
 
 Once they are all installed (which may take some time!), you can continue with the rest of the guide for setting up

@@ -2,31 +2,18 @@
 > Code written in Haskell is guaranteed to have no side effects ... because no one will ever run it? 
 > -- *[XKCD 1312](https://www.xkcd.com/1312)*
 
-Haskell recently changed the recommended installation method to include Chocolatey (a Windows package manager), this
-seems to be the only way to install the entire platform at the latest version. These instructions are based off
-[https://www.haskell.org/platform/windows.html](https://www.haskell.org/platform/windows.html).
+Haskell recently changed the recommended installation method to installing GHCup. These instructions are based off
+[https://www.haskell.org/downloads/](https://www.haskell.org/downloads/).
 
-1. Install [Chocolatey](https://chocolatey.org/install) using the script below in an administrator PowerShell (right 
-click windows terminal and select `run as administrator`).
+1. Install GHC, cabal-install, stack and haskell-language-server via GHCupusing the script below:
 
 ```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+Set-ExecutionPolicy Bypass -Scope Process -Force;[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072;Invoke-Command -ScriptBlock ([ScriptBlock]::Create((Invoke-WebRequest https://www.haskell.org/ghcup/sh/bootstrap-haskell.ps1 -UseBasicParsing))) -ArgumentList $true
 ```
 
-2. Wait for the installation to complete and then run `choco` to check it all works
+There's also a [youtube video](https://www.youtube.com/watch?v=bB4fmQiUYPw) explaining installation on windows.
 
-3. In your administrator PowerShell then run the following two commands:
-
-```powershell
-choco install haskell-dev
-refreshenv
-```
-
-4. Install [Visual Studio Code](https://code.visualstudio.com/) either via Chocolatey or by downloading the installer.
-
-```powershell
-choco install vscode
-```
+4. Install [Visual Studio Code](https://code.visualstudio.com/).
 
 5. Once installed, open and go to extensions on the left-hand side (4 squares with one offset) and install
 [`Haskelly`](https://marketplace.visualstudio.com/items?itemName=UCL.haskelly) which was written by UCL

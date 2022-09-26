@@ -13,9 +13,9 @@ One of the biggest reasons Windows used to be so horrible to develop on was that
 is somehow still backwards compatible with scripts from Windows-95) or PowerShell. PowerShell was not terrible it was
 just annoying and completely different to any other command line interface you might end up using. Now we have 
 PowerShell Core a complete rewriting of PowerShell to make it easier to use and more bash like.
-1. Download the [latest release](https://github.com/PowerShell/PowerShell/releases/tag/v7.0.3) of 
+1. Download the latest release of 
 [PowerShell Core](https://github.com/PowerShell/PowerShell) for your system, it is likely you have a 64-bit machine 
-(and it is windows) so PowerShell-7.0.3-win-x64.msi should work nicely (you should use win-x86.msi if your
+(and it is windows) so PowerShell-7.2.6-win-x64.msi should work nicely (you should use win-x86.msi if your
 machine is 32-bit).
 
 2. Run the msi file and install.
